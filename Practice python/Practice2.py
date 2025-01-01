@@ -51,16 +51,16 @@
 # list.append('23')
 # print(list)
 
-# a = 1 
+a = 1 
 
-# while a<=10 :
-#     a = a+1
-#     print(a)
-#     if a == 5:
-#         break
+while a<=10 :
+    a = a+1
+    print(a)
+    if a == 5:
+        break
 
 
-list = ['mushfik','liton','tamim','rubel']
+# list = ['mushfik','liton','tamim','rubel']
 # list1 = {"Sazid",'34','455','56'}
 # list.extend(list1)
 # list.pop()
@@ -80,5 +80,7 @@ list = ['mushfik','liton','tamim','rubel']
 #     print(list[i])
 #     i += 1
     
-for i in list :
-    print(i)
+# for i in list :
+#     print(i)
+
+
