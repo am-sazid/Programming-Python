@@ -4,5 +4,5 @@ while True:
     if 1 <= user <= 10:
         print("Your Number: ",user)
         break
-    print("Wrong input Try again")
+    print("Wrong input Try again!")
 
