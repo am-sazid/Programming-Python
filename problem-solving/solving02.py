@@ -29,11 +29,24 @@
 # print( a ,"x" ,i ,factrial)
 
 
-number = 5
-factorial = 1
+# number = 5
+# factorial = 1
 
-for i in range(1, number + 1):
-    print(f"{factorial} × {i} = {factorial * i}")
-    factorial *= i
+# for i in range(1, number + 1):
+#     print(f"{factorial} × {i} = {factorial * i}")
+#     factorial *= i
 
-print(f"\nFactorial of {number} is: {factorial}")
+# print(f"\nFactorial of {number} is: {factorial}")
+
+
+
+N ,M= map(int,input().split())
+
+half = N / 2
+
+
+
+if M >= half:
+    print("Newbie")
+else:
+    print("Pro")
