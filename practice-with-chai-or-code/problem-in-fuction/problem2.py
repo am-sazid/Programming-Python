@@ -9,8 +9,8 @@ while True:
         if user_input not in [1, 2, 3]:
             raise ValueError("Invalid choice. Please enter 1, 2, or 3.")
         break
-    except ValueError as e:
-        print(e)
+    except ValueError:
+        print("Please enter a integer between 1 and 3.")
 
 computer = random.randint(1, 3)
 print(f"Computer chose: {computer}")
