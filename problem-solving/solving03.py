@@ -13,4 +13,5 @@ if failmarks:
     print("You have failed the exam")
 else:
     print(sum(marks))
+    
         
