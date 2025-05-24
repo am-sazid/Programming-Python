@@ -2,7 +2,7 @@
 A = int(input())
 
 B , C = map(int,input().split())
-S = input()
+s = input()
 sum = A + B + C
 
-print(sum, S)
+print(sum, s)
