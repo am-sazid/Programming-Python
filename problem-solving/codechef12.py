@@ -9,3 +9,6 @@ print(pizzas_needed)
 
 for i in range(4):
     print("****")
+
+
+print(4 * "*")
