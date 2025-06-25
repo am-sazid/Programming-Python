@@ -4,3 +4,4 @@ if R > L :
     print(R - L)
 else:
     print(L - R)
+    
