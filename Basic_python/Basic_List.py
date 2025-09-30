@@ -15,7 +15,6 @@ numbers.insert(0,47)
 print(numbers)
 numbers.remove(45)
 print(numbers)
-
 numbers.pop()
 print(numbers)
 
