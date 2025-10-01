@@ -11,6 +11,7 @@ buying("Smart Watch",3200)
 a = 23
 b = 20
 c = 16
+d = 39
 
-sum = min(a,b,c)
+sum = min(a,b,c,d)
 print(sum)
